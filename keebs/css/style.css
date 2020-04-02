@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+@media only screen and (min-width:375px) {
+    .logo {
+        width: 100%;
+        display: block;
+        padding-bottom: 30px;
+    }
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .wrapper1 {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .wrapper2 {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .wrapper3 {
+        margin: 0 auto;
+        display: inline-block;
+    }
+}
+
 /*-----------------------------------------------------------------------------------Colours */
 
 .bg-color-name-title {
-    background-color: #00FFFF;
+    background-color: #c7b8b8;
 }
 
 .ui-menu-color-home {
@@ -19,6 +43,55 @@
     background-color: #778899;
 }
 
+/*-----------------------------------------------------------------------------------Speacial content */
+
+.wrapper {
+    width: 100%;
+    background: #fafafa;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
+}
+
+.wrapper1 {
+    width: 360px;
+    height: 450px;
+    background-color: rgb(187, 92, 92);
+    float: left;
+    color: rgb(14, 7, 7);
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold
+}
+
+.wrapper2 {
+    width: 360px;
+    height: 450px;
+    background-color: rgb(240, 147, 8);
+    float: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Fira Sans", sans-serif;
+    color: 	#D3D3D3;
+    font-weight: bold
+}
+
+.wrapper3 {
+    width: 360px;
+    height: 450px;
+    background-color: rgb(32, 145, 32);
+    float: right;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
+    color: #A0522D;
+}
 /*-----------------------------------------------------------------------------------Special paddings/margins/text */
 
 h1,
@@ -40,6 +113,18 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.decorations {
+    text-decoration: underline;
+}
+
+.spacing {
+    letter-spacing: 5px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px silver;
 }
 
 /*-----------------------------------------------------------------------------------Headings */
@@ -143,7 +228,7 @@ header {
 /*-----------------------------------------------------------------------------------Footer */
 
 footer {
-    background-color: #A9A9A9;
+    background-color: #000000;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
