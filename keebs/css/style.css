@@ -44,23 +44,6 @@
     }
 }
 
-@media only screen and (min-width:375px) {
-    .logo {
-        width: 100%;
-        display: block;
-        padding-bottom: 30px;
-    }
-    
-    .wrapper1,
-    .wrapper2,
-    .wrapper3 {
-        width: 20%
-    }
-    
-    .wrapper {
-        width: 100%;
-        padding: 0px
-}
 
 /*-----------------------------------------------------------------------------------Colours */
 
