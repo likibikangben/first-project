@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 @media only screen and (max-width:959px) {
-    .wrapper1,
-    .wrapper2,
-    .wrapper3 {
+    .wrapper1 {
+        width: 50%;
+        margin: 20px;
+    }
+    .wrapper2 {
+        width: 50%;
+        margin: 20px;
+    }
+        .wrapper3 {
         width: 50%;
         margin: 20px;
     }
@@ -68,22 +74,28 @@
 
 .wrapper {
     width: 100%;
+    height: auto;
     overflow: hidden;
-    background: #fafafa;
+    background: #837a7a;
     padding: 20px 0px;
-    margin: 20px auto;
-    
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
 
-.wrapper1,
-.wrapper2,
+.wrapper1:hover {
+    opacity: 0.9;
+}
+.wrapper2:hover {
+    opacity: 0.9;
+}
 .wrapper3:hover {
     opacity: 0.9;
 }
 
 .wrapper1 {
-    width: 360px;
+    width: 30%;
     background-color: rgb(187, 92, 92);
     float: left;
     color: rgb(14, 7, 7);
@@ -95,7 +107,7 @@
 }
 
 .wrapper2 {
-    width: 360px;
+    width: 30%;
     background-color: rgb(240, 147, 8);
     float: left;
     margin-left: 200px;
@@ -109,7 +121,7 @@
 }
 
 .wrapper3 {
-    width: 360px;
+    width: 30%;
     background-color: rgb(32, 145, 32);
     float: right;
     text-align: center;
@@ -128,6 +140,9 @@
     font-weight: bold;
 }
 
+.word-break {
+    word-break: break-word;
+}
 
 /*-----------------------------------------------------------------------------------Special paddings/margins/text */
 
