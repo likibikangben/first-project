@@ -342,3 +342,43 @@ footer {
 #footer-detials {
     padding: 20px;
 }
+
+/*-----------------------------------------------------------------------------------Contacts */
+
+.body {
+    background-image: url("../images/8th.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+hr {
+    background: white;
+}
+
+
+
+.label {
+    font-size: 19px;
+    color: #fafafa;
+    font-weight: normal;
+}
+
+.form-control {
+    background: transparent;
+    color: gray;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 21px;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 15px;
+}
+
+.btn-danger {
+    font-size: 19px;
+    width: 553px;
+}
+
