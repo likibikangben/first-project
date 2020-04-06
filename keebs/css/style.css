@@ -412,9 +412,10 @@ hr {
 
 /*-----------------------------------------------------------------------------------Gallery */
 
+
 .gallery1 {
     background-image: url("../images/1st.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -430,7 +431,7 @@ hr {
 
 .gallery2 {
     background-image: url("../images/3rd.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -446,7 +447,7 @@ hr {
 
 .gallery3 {
     background-image: url("../images/4th.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -462,7 +463,7 @@ hr {
 
 .gallery4 {
     background-image: url("../images/6th.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -478,7 +479,7 @@ hr {
 
 .gallery5 {
     background-image: url("../images/7th.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -494,7 +495,7 @@ hr {
 
 .gallery6 {
     background-image: url("../images/9th.jpg");
-    min-width: 360px;
+    min-width: 500px;
     min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
