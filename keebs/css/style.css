@@ -410,107 +410,72 @@ hr {
     padding: 26px;
 }
 
-/*-----------------------------------------------------------------------------------Gallery */
+/*-----------------------------------------------------------------------------------SignUP */
 
-
-.gallery1 {
-    background-image: url("../images/1st.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+section {
+    margin: 0px;
+    padding: 0px;
 }
 
-.gallery2 {
-    background-image: url("../images/3rd.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.gallery3 {
-    background-image: url("../images/4th.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.gallery4 {
-    background-image: url("../images/6th.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.gallery5 {
-    background-image: url("../images/7th.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.gallery6 {
+.container2 {
     background-image: url("../images/9th.jpg");
-    min-width: 500px;
-    min-height: 500px;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 33.3%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    background-size: cover;
+    font-family: "Exo", sans-serif;
 }
 
-.responsive {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+.sign-up {
+    font-family: 50px;
+    color: #fafafa;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.col-md-5 {
+    background: rgba(0, 0, 0,0.6);
+    margin-top: 40px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group-addon {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    color: gray;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    color: #fafafa;
+    font-size: 21px;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+}
+small {
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.to {
+    font-size: 21px;
+    font-family: 15px;
+    color: #fafafa;
 }
