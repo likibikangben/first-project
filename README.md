@@ -16,7 +16,7 @@ I wanted to ensure that when a user clicks on the website, they should be able t
 ## Exisiting Features
 
 - Home page
-  -  I have ensure that it it easy for eveyone to esaily have access to the home page from any where they are on the website. I have ensured that their are mutiples ways of getting page to home page by providing a home menu tab which can be accessed from all pages. The logo is set to home aswell and I also made the banner clickable to home.
+  -  I have ensure that it is easy for eveyone to esaily have access to the home page from any where they are on the website. I have ensured that their are mutiples ways of getting page to home page by providing a home menu tab which can be accessed from all pages. The logo is set to home aswell and I also made the banner clickable to home.
   - I have provided useful information in the `footer` section 
     - Such as opening times
     - Sign Up link for new users
