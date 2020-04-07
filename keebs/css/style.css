@@ -76,16 +76,18 @@
     width: 100%;
     margin: auto;
     height: auto;
+    clear: both;
     justify-content: space-evenly;
     overflow: hidden;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 100px;
     padding-left: 100px;
     
 }
-
 
 .wrapper1:hover {
     opacity: 0.9;
@@ -114,9 +116,8 @@
     width: 320px;
     height: 360px;
     background-color: rgba(236, 147, 12, 0.6);
-    float: left;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
+    clear: both;
     text-align: center;
     border-radius: 25px;
     border: 2px solid #111;
@@ -291,7 +292,7 @@ header {
 .workout {
     background: url("../images/5th.jpg");
     width: 100%;
-    height: auto;
+    height: 1000px;
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
